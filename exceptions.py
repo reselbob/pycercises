@@ -12,6 +12,6 @@ def is_odd(n):
 
 
 try:
-    print("This value is %d" % is_odd(dt.second))
+    print("This value is ODD -> %d" % is_odd(dt.second))
 except Exception as e:
         print str("Danger! %s" % e)
